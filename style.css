@@ -97,3 +97,52 @@ body {
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    #game_screen {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .game_btn {
+        font-size: 150%;
+        width: 8vh;
+        height: 8vh;
+    }
+
+    #show_rules {
+        width: 12vh;
+        height: 6vh;
+        font-size: 100%;
+    }
+
+    #playerDisplay,
+    #computerDisplay,
+    #resultDisplay {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #game_screen {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .game_btn {
+        font-size: 120%;
+        width: 6vh;
+        height: 6vh;
+    }
+
+    #show_rules {
+        width: 10vh;
+        height: 5vh;
+        font-size: 90%;
+    }
+
+    #playerDisplay,
+    #computerDisplay,
+    #resultDisplay {
+        font-size: 90%;
+    }
+}
