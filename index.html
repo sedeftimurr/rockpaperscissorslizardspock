@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <strong><h1>Rock Paper Scissors<span class="badge bg-danger">Lizard Spock</span></h1></strong>
+    <button class="rules_btn" id="show_rules">Rules</button>
+    <div class="rules" id="rules">
+        <strong><p>It's realy simple</p></strong>
+        <ul>
+            <li>Scissors cuts Paper</li>
+            <li>Paper covers Rock</li>
+            <li>Rock crushes Lizard</li>
+            <li>Lizard poisons Spock</li>
+            <li>Spock smashes Scissors</li>
+            <li>Scissors decapitates Lizard</li>
+            <li>Lizard eats Paper</li>
+            <li>Paper disproves Spock</li>
+            <li>Spock vaporizes Rock</li>
+            <li><small class="text-muted">(and as it always has)</small>Rock crushes Scissors</li>
+        </ul>
+    </div>
+    <div id="game_screen">
+        <button class="game_btn" id="rock" onclick="playGame('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button class="game_btn" id="paper" onclick="playGame('paper')"><i class="fa-solid fa-hand"></i></button>
+        <button class="game_btn" id="scissors" onclick="playGame('scissors')"><i class="fa-solid fa-hand-scissors"></i></button>
+        <button class="game_btn" id="lizard" onclick="playGame('lizard')"><i class="fa-solid fa-hand-lizard"></i></button>
+        <button class="game_btn" id="spock" onclick="playGame('spock')"><i class="fa-solid fa-hand-spock"></i></button>
+    </div>
+    <div id="playerDisplay">PLAYER:</div>
+    <div id="computerDisplay">COMPUTER:</div>
+    <div id="resultDisplay">IT'S A TIE!</div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
