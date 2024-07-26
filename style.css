@@ -98,6 +98,11 @@ body {
     justify-content: center;
 }
 @media (max-width: 768px) {
+    body {
+        background-size: auto 100%;
+        background-position: center top;
+    }
+
     #game_screen {
         width: 80%;
         padding: 10px;
@@ -123,6 +128,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    body {
+        background-size: auto 100%;
+        background-position: center top;
+    }
+
     #game_screen {
         width: 90%;
         padding: 5px;
